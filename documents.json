@@ -1,0 +1,24 @@
+{
+    "6023325950009": {
+        "code": "6023325950009",
+        "title": "Release Order",
+        "tpin": "31809215",
+        "importer": "KAPINYA CLUB\r\nP.O. BOX 13, MPHEREMBE\r\nMPHEREMBE",
+        "office": "SONGWE BORDER",
+        "reference": "C 31057 of 24/11/2025",
+        "declarant": "CA25080",
+        "items": "1",
+        "taxes": "2234490.50"
+    },
+    "60250666802157": {
+        "code": "60250666802157",
+        "title": "Release Order",
+        "tpin": "30936548",
+        "importer": "VICTOR MKANDAWIRE - SPARES OASIS\r\nP.O. BOX 20263 MZUZU\r\nMZUZU",
+        "office": "SONGWE BORDER",
+        "reference": "C 6040 of 21/02/2025",
+        "declarant": "CA25259",
+        "items": "5",
+        "taxes": "22537186.35"
+    }
+}

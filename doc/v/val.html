@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validateDocument | Document Validation</title>
+    <link href="../Content/css.css" rel="stylesheet"/>
+    <script src="../bundles/modernizr.js"></script>
+</head>
+<body>
+    <div class="container body-content">
+        
+
+
+<h2>Document with Validation Code <span id="val-code"></span> <b><u>must have</u></b> the below details</h2>
+
+<table class="table">
+    <tr>
+        <th width="30%">Field</th>
+        <th width="90%">Value</th>
+    </tr>
+
+            <tr>
+                <td>Document Title</td>
+                <td><span id="val-title" style="white-space: pre-line"></span></td>
+            </tr>
+            <tr>
+                <td>TPIN</td>
+                <td><span id="val-tpin" style="white-space: pre-line"></span></td>
+            </tr>
+            <tr>
+                <td>Importer Name</td>
+                <td><span id="val-importer" style="white-space: pre-line"></span></td>
+            </tr>
+            <tr>
+                <td>Clearance Office</td>
+                <td><span id="val-office" style="white-space: pre-line"></span></td>
+            </tr>
+            <tr>
+                <td>Registration Reference</td>
+                <td><span id="val-reference" style="white-space: pre-line"></span></td>
+            </tr>
+            <tr>
+                <td>Declarant Code</td>
+                <td><span id="val-declarant" style="white-space: pre-line"></span></td>
+            </tr>
+            <tr>
+                <td>Total Items</td>
+                <td><span id="val-items" style="white-space: pre-line"></span></td>
+            </tr>
+            <tr>
+                <td>Total Taxes</td>
+                <td><span id="val-taxes" style="white-space: pre-line"></span></td>
+            </tr>
+</table>
+<a href="/doc/v/gvc.html" class="btn btn-success btn-lg">Back</a>
+
+<script>
+    // Get the validation code from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const vc = urlParams.get('vc');
+
+    if (!vc) {
+        window.location.href = "gvc.html";
+    } else {
+        // Fetch the data from documents.json
+        fetch('../../documents.json')
+            .then(response => response.json())
+            .then(docs => {
+                const doc = docs[vc];
+                if (doc) {
+                    document.getElementById('val-code').textContent = doc.code;
+                    document.getElementById('val-title').textContent = doc.title;
+                    document.getElementById('val-tpin').textContent = doc.tpin;
+                    document.getElementById('val-importer').textContent = doc.importer;
+                    document.getElementById('val-office').textContent = doc.office;
+                    document.getElementById('val-reference').textContent = doc.reference;
+                    document.getElementById('val-declarant').textContent = doc.declarant;
+                    document.getElementById('val-items').textContent = doc.items;
+                    document.getElementById('val-taxes').textContent = doc.taxes;
+                } else {
+                    // Code not found in database
+                    window.location.href = "gvc.html?error=1";
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching document data:', error);
+                window.location.href = "gvc.html?error=1";
+            });
+    }
+</script>
+        <hr />
+        <footer>
+            <p>&copy; 2026 - Malawi Revenue Authority</p>
+        </footer>
+    </div>
+
+    <script src="../bundles/jquery.js"></script>
+
+    <script src="../bundles/bootstrap.js"></script>
+
+    
+</body>
+</html>
