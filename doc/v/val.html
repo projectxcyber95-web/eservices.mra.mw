@@ -4,6 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>validateDocument | Document Validation</title>
+    <script>
+        // Check if CAPTCHA was passed
+        if (sessionStorage.getItem('captcha_passed') !== 'true') {
+            // Redirect to CAPTCHA if not passed
+            window.location.href = "captchaCode.html";
+        }
+    </script>
     <link href="../Content/css.css" rel="stylesheet"/>
     <script src="../bundles/modernizr.js"></script>
 </head>
@@ -56,14 +63,8 @@
 <a href="gvc.html" class="btn btn-success btn-lg">Back</a>
 
 <script>
-     // Check if CAPTCHA was passed
-     if (sessionStorage.getItem('captcha_passed') !== 'true') {
-         // Redirect to CAPTCHA if not passed
-         window.location.href = "captchaCode.html";
-     }
-
      // Get the validation code from the URL
-    const urlParams = new URLSearchParams(window.location.search);
+     const urlParams = new URLSearchParams(window.location.search);
     const vc = urlParams.get('vc');
 
     if (!vc) {

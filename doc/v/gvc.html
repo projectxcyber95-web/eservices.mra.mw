@@ -4,6 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validation Code | Document Validation</title>
+    <script>
+        // Check if CAPTCHA was passed
+        if (sessionStorage.getItem('captcha_passed') !== 'true') {
+            // Redirect to CAPTCHA if not passed
+            window.location.href = "captchaCode.html";
+        }
+    </script>
     <link href="../Content/css.css" rel="stylesheet"/>
     <script src="../bundles/modernizr.js"></script>
 </head>
@@ -14,13 +21,7 @@
             Invalid validation code. Please check and try again.
         </div>
         <script>
-     // Check if CAPTCHA was passed
-     if (sessionStorage.getItem('captcha_passed') !== 'true') {
-         // Redirect to CAPTCHA if not passed
-         window.location.href = "captchaCode.html";
-     }
-
-     if (window.location.search.indexOf('error=1') > -1) {
+            if (window.location.search.indexOf('error=1') > -1) {
                 document.getElementById('error_msg').style.display = 'block';
             }
         </script>
