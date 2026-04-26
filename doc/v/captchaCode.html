@@ -55,19 +55,18 @@
             display: none;
         }
         
-        /* The Checkmark */
+        /* The Checkmark - Refined to match image exactly */
         .rc-checkmark {
             display: none;
-            width: 28px;
-            height: 28px;
-            color: #4285f4;
-            font-size: 26px;
-            line-height: 28px;
-            text-align: center;
+            width: 7px;
+            height: 14px;
+            border: solid #009a2d;
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
             position: absolute;
-            top: 0;
-            left: 0;
-            font-weight: bold;
+            left: 10px;
+            top: 4px;
+            box-sizing: border-box;
         }
         
         /* The Spinner */
@@ -165,7 +164,7 @@
                     <div class="rc-anchor-checkbox-container">
                         <div id="custom-checkbox" class="rc-anchor-checkbox"></div>
                         <div id="spinner" class="rc-spinner"></div>
-                        <div id="checkmark" class="rc-checkmark">✓</div>
+                        <div id="checkmark" class="rc-checkmark"></div>
                         <input type="checkbox" id="human_check" name="human_check" style="display:none;">
                     </div>
                     <div class="rc-inline-block">
