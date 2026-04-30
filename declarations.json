@@ -40,21 +40,7 @@
         "total packages": "1",
         "consignment value": "USD 2500",
         "taxes": "2254490.50"
-    }
-    "60240312900433": {
-        "code": "60240312900433",
-        "document title": "Customs and Excise\r\nDeclaration (Form 12)",
-        "tpin": "70153003",
-        "importer/consignee": "LONELY PAUL MWANDIRA-ST JOHN'S HOSPITAL\r\nP.O BOX 18, MZUZU\r\nMZUZU (MALAWI)",
-        "clearance office": "SONGWE BORDER",
-        "registration reference": "C 2510 of 2024/01/30",
-        "declarant code": "CA25079",
-        "declarant name": "SURFAVION CUSTOMS CLEARING AGENTS\r\nP.O BOX 40209\r\nKANENGO LILONGWE4",
-        "total items": "1",
-        "total packages": "1",
-        "consignment value": "EUR 3532",
-        "taxes": "3870781.00"
-    }
+    },
     "60240312900433": {
         "code": "60240312900433",
         "document title": "Customs and Excise\r\nDeclaration (Form 12)",
