@@ -53,5 +53,16 @@
         "declarant": "CA25314",
         "items": "1",
         "taxes": "3607585.00"
+    },
+    "60352078013399": {
+        "code": "60352078013399",
+        "title": "Release Order",
+        "tpin": "70753003",
+        "importer": "CHANAWENI CLUB\r\nP.O. BOX 46 KASUNGU (MALAWI)\r\nKASUNGU",
+        "office": "SONGWE BORDER",
+        "reference": "C 25107 of 21/11/2025",
+        "declarant": "CA25169",
+        "items": "1",
+        "taxes": "3850781.00"
     }
 }
