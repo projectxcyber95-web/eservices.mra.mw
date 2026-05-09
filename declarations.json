@@ -124,5 +124,19 @@
         "total packages": "1",
         "consignment value": "USD 15250",
         "taxes": "2254490.50"
+    },
+    "70252195202951": {
+        "code": "70252195202951",
+        "document title": "Customs and Excise\r\nDeclaration (Form 12)",
+        "tpin": "36016127",
+        "importer/consignee": "REHOBOTH FARMING CLUB\r\nP.O BOX 46, BOLERO\r\nRUMPHI (MALAWI)",
+        "clearance office": "MCHINJI BORDER",
+        "registration reference": "C 21544 of 2025/07/17",
+        "declarant code": "CA25259",
+        "declarant name": "FREIGHT CAFE LOGISTICS\r\nP.O BOX 15\r\nKARONGA",
+        "total items": "1",
+        "total pieces": "710",
+        "consignment value": "USD 5570",
+        "taxes": "1952595.77"
     }
 }

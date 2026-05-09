@@ -97,5 +97,16 @@
         "declarant": "CA25080",
         "items": "1",
         "taxes": "2234490.50"
+    },
+    "60252195901139": {
+        "code": "60252195901139",
+        "title": "Release Order",
+        "tpin": "36016127",
+        "importer": "REHOBOTH FARMING CLUB\r\nP.O BOX 46, BOLERO\r\nRUMPHI\r\nMalawi",
+        "office": "MCHINJI BORDER",
+        "reference": "C 21544 of 18/07/2025",
+        "declarant": "CA25259",
+        "items": "1",
+        "taxes": "1862595.77"
     }
 }
