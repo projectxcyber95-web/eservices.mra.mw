@@ -141,5 +141,16 @@
         "declarant": "CA25080",
         "items": "1",
         "taxes": "3076442.00"
+    },
+    "60250619600177": {
+        "code": "60250619600177",
+        "title": "Release Order",
+        "tpin": "70299823",
+        "importer": "KATUNDU CLUB(WILLIAM MSIMUKO)\r\nP.O BOX 16 Kazuni\r\nKAZUNI MALAWI",
+        "office": "SONGWE BORDER",
+        "reference": "C 32511 of 02/04/2026",
+        "declarant": "CA25289",
+        "items": "1",
+        "taxes": "8071905.00"
     }
 }
