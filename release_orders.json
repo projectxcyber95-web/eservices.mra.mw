@@ -174,5 +174,16 @@
         "declarant": "CA25503",
         "items": "1",
         "taxes": "8071905.00"
+    },
+    "60352078037009": {
+        "code": "60352078037009",
+        "title": "Release Order",
+        "tpin": "70753003",
+        "importer": "PRECIOUS CLUB\r\nP.O. BOX 41 MHUJU\r\nRUMPHI (Malawi)\r\nRUMPHI",
+        "office": "SONGWE BORDER",
+        "reference": "C 25106 of 21/11/2025",
+        "declarant": "CA25168",
+        "items": "1",
+        "taxes": "3850781.00"
     }
 }
