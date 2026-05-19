@@ -196,5 +196,16 @@
         "declarant": "CA25220",
         "items": "1",
         "taxes": "7943849.25"
+    },
+    "60240513000899": {
+        "code": "60240513000899",
+        "title": "Release Order",
+        "tpin": "31217822",
+        "importer": "NTENDELE CLUB\r\nBOX 4 MPONELA\r\nMALAWI",
+        "office": "SONGWE BORDER",
+        "reference": "C 3916 of 16/10/2025",
+        "declarant": "CA25018",
+        "items": "1",
+        "taxes": "5542711.00"
     }
 }
